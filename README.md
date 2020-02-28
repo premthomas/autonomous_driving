@@ -20,7 +20,16 @@ Our intention was to collect data using a camera attached as a dashcam. However,
 Therefore we intend on using a simulator like Carla to create our data. 
 By modifying the program, we can get a frame of a driving session along with the action taken at the frame. 
 
-Here is an example of a frame from Carla. 
+Here are four frames from Carla along with the data from the vehicle. 
+
+Frame:      43824
+Speed:      20
+Throttle:   1
+Brake:      0
+
+43825	-74.6	148.1	16	0	0.000350571	1
+43826	-74.6	147.8	7	0	-0.000154114	1
+43827	-74.6	147.7	0	0	-0.000404994	1
 
 ![Example - red light](https://user-images.githubusercontent.com/41816491/75568209-deb3cc80-5a20-11ea-8ca6-7de013815a3f.png)
 
