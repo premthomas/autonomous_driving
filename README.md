@@ -22,28 +22,40 @@ By modifying the program, we can get a frame of a driving session along with the
 
 Here are four frames from Carla along with the data from the vehicle. 
 
+![00043824-20200226-203231-Prem](https://user-images.githubusercontent.com/41816491/75571162-a616f180-5a26-11ea-8ca4-d5b96b742fb3.png)
+
 | Frame         | Speed         | Throttle pos  | Brake pos     |
 | ------------- | ------------- | ------------- | ------------- |
 | 43824         | 20            | 1             | 0             |
+
+<br/>
+<br/>
+
+![00043825-20200226-203231-Prem](https://user-images.githubusercontent.com/41816491/75571198-b4650d80-5a26-11ea-802c-fabf6d052753.png)
 
 | Frame         | Speed         | Throttle pos  | Brake pos     |
 | ------------- | ------------- | ------------- | ------------- |
 | 43825         | 16            | 0             | 1             |
 
+<br/>
+<br/>
+
+![00043826-20200226-203231-Prem](https://user-images.githubusercontent.com/41816491/75571203-b7f89480-5a26-11ea-906e-d74dd41d48f5.png)
+
 | Frame         | Speed         | Throttle pos  | Brake pos     |
 | ------------- | ------------- | ------------- | ------------- |
 | 43826         | 7             | 0             | 1             |
+
+<br/>
+<br/>
+
+![00043827-20200226-203231-Prem](https://user-images.githubusercontent.com/41816491/75571210-bb8c1b80-5a26-11ea-8f41-f9262fa278a9.png)
 
 | Frame         | Speed         | Throttle pos  | Brake pos     |
 | ------------- | ------------- | ------------- | ------------- |
 | 43827         | 0             | 0             | 1             |
 
+<br/>
+<br/>
 
-
-43825	-74.6	148.1	16	0	0.000350571	1
-43826	-74.6	147.8	7	0	-0.000154114	1
-43827	-74.6	147.7	0	0	-0.000404994	1
-
-![Example - red light](https://user-images.githubusercontent.com/41816491/75568209-deb3cc80-5a20-11ea-8ca6-7de013815a3f.png)
-
-Notice that the traffic signal in the direction of travel is red. The car should stop and this image should be classified as 'BRAKE-RED'.
+While it does not seem like much, the vehicle should have seen the traffic light in the first frame but comes to a stop only at the line. 
