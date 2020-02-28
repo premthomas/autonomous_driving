@@ -80,6 +80,16 @@ Execute the application 'CarlaUE4' (which is the Unreal Engine) and then under \
 ### Changes to generate the data
 We use the file 'manual_control.py' to generate the data. This program has a couple of options that help us with this. The first is that this program has the ability to record i.e. on activating it, frames are stored in the folder \PythonAPI\examples\_out. The second interesting ability is that you can switch on autopilot. This controls the vehicle following the rules of the road. The one thing that the program does NOT do is return vehicle state at a frame level. For this, we have made some changes in the program ('manual_control.py') to retrive them and return a CSV file. The changes have been marked with the comment lines. 
 
+![Manual Control](Code Files/manual_control.py)
+
+
+[I'm an inline-style link](Code Files/manual_control.py)
+
+
+[I'm a relative reference to a repository file](../blob/master/manual_control.py)
+
+
+
 ## Assumptions (and/or fixed parameters)
 ### Carla parameters
   1. Image size has been set to 400x300
