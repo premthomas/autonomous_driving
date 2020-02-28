@@ -20,4 +20,6 @@ Our intention was to collect data using a camera attached as a dashcam. However,
 Therefore we intend on using a simulator like Carla to create our data. 
 By modifying the program, we can get a frame of a driving session along with the action taken at the frame. 
 
+Here is an example of a frame from Carla. 
 ![Example - red light](https://user-images.githubusercontent.com/41816491/75568209-deb3cc80-5a20-11ea-8ca6-7de013815a3f.png)
+Notice that the traffic signal in the direction of travel is red. The car should stop and this image should be classified as 'BRAKE-RED'.
