@@ -1,6 +1,6 @@
 # Autonomous driving (Level 1)
 ## Disclaimer
-This document has been created as a requirement for a Capstone project. With less than 3 weeks of development time, the methodology, code etc might not be of the higest quality and requires review.
+This document has been created as a requirement for a Capstone project. With less than 3 weeks of development time, the methodology, code etc. might not be of the highest quality and will require review.
 
 ## Description
 Level 1 Autonomus driving requires a human to have major control over the vehicle while the system provides some information. In this project, we use a camera to capture images of the road from the vehciles perspective, and classify them. There will be some assumptions made and these are listed at the end of this page. 
