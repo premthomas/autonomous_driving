@@ -73,7 +73,7 @@ After unzipping the contents to a folder, you should have the following files av
 
 Execute the application 'CarlaUE4' (which is the Unreal Engine) and then under \PythonAPI\examples folder you will find a buch of python script files. A few of the interesting ones are 
   1. automatic_control.py: This program will spawn a vehicle at a random point on the map, generate a destination, and start controlling the vehicle to the desctination. It should follow all rules like traffic and obstructions and not get into any collisions. 
-  2. manual_control.py: Spawns a vehicle at a random position and gives the user control over the vehicle. There are options mapped to keys which will give you a lot more control over the simulation. 
+  2. [manual_control.py](../master/code_files/manual_control.py): Spawns a vehicle at a random position and gives the user control over the vehicle. There are options mapped to keys which will give you a lot more control over the simulation. 
   3. spawn_npc.py: will spawn a number of vehicles on the road which will follow the road rules. 
   4. tutorial.py: shows you how a program should be written to use Carla efficiently. Note that not all the functions are shown but it is an excellent spot to get started with understanding the simulator.
 
