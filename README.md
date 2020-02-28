@@ -71,11 +71,13 @@ After unzipping the contents to a folder, you should have the following files av
 
 ![image](https://user-images.githubusercontent.com/41816491/75577347-d616c280-5a2f-11ea-931d-95cabb92a80a.png)
 
-Execute the application 'CarlaUE4' (which is the Unreal Engine) and then under \PythonAPI\examples folder you will find a buch of python script files. A few of the interesting ones are 
+Execute the application 'CarlaUE4' (which is the Unreal Engine) and then under \PythonAPI\examples folder you will find python script files. A few of the interesting ones are 
   1. automatic_control.py: This program will spawn a vehicle at a random point on the map, generate a destination, and start controlling the vehicle to the desctination. It should follow all rules like traffic and obstructions and not get into any collisions. 
   2. [manual_control.py](../master/code_files/manual_control.py): Spawns a vehicle at a random position and gives the user control over the vehicle. There are options mapped to keys which will give you a lot more control over the simulation. 
   3. spawn_npc.py: will spawn a number of vehicles on the road which will follow the road rules. 
   4. tutorial.py: shows you how a program should be written to use Carla efficiently. Note that not all the functions are shown but it is an excellent spot to get started with understanding the simulator.
+
+Note that this program runs on a client-server model. This means that if you exectue any of the python programs below, it will error out if the CarlaUE4 application is not running.
 
 ### Changes to generate the data
 We use the file [manual_control.py](../master/code_files/manual_control.py) to generate the data. This program has a couple of options that help us with this. The first is that this program has the ability to record i.e. on activating it, frames are stored in the folder '\PythonAPI\examples\_out'. The second interesting ability is that you can switch on autopilot. This controls the vehicle following the rules of the road. The one thing that the program does NOT do is return vehicle state at the frame level. For this, we have made some changes in the program ([manual_control.py](../master/code_files/manual_control.py)) to retrive them and return a CSV file. The changes have been marked with the comment lines. 
