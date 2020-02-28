@@ -59,10 +59,20 @@ Here are four frames from Carla along with the (action) data from the vehicle.
 
 The vehicle should have registered the traffic light in the frame number 43824 but continues to accelerate, applies the brake in frame numbers 43825 and 43826 thereby reducing its speed, and comes to a complete halt at frame number 43827 at the stop line. 
 
+## Carla (about and installation)
+  1. The simulator can be found at http://carla.org/. 
+  2. We are using the release version 0.9.5 as it has an experimental version for Windows. The download link for this is https://github.com/carla-simulator/carla/releases/tag/0.9.5. 
+  3. The prerequisites for a Windows system can be found at https://carla.readthedocs.io/en/latest/how_to_build_on_windows/
+  4. Start at the core concepts (https://carla.readthedocs.io/en/latest/core_concepts/)
+  5. This link (https://carla.readthedocs.io/en/latest/python_api/) is handy for the understanding of Python APIs
+
 ## Assumptions (and/or fixed parameters)
 ### Carla parameters
   1. Image size has been set to 400x300
   2. The vehicle and its color has been kept constant
   3. The weather parameter has been set to 'Clear noon' 
+  
+## Citations, credits, and sources
+1. carla.org 
   
 
