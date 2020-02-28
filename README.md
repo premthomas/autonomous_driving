@@ -57,7 +57,7 @@ Here are four frames from Carla along with the (action) data from the vehicle.
 <br/>
 <br/>
 
-The vehicle should have registered the traffic light in the frame number 43824 but continues to accelerate, applies the brake in frame numbers 43825 and 43826 thereby reducing its speed, and comes to a complete halt at frame number 43827 at the stop line. 
+At first glance, you might think that all the frames are the same but take a closer look at the wing mirrors on the vehicle with respect to the stop line on the road. Based on the data, the vehicle should have registered the traffic light in the frame number 43824 but continues to accelerate, applies the brake in frame numbers 43825 and 43826 thereby reducing its speed, and comes to a complete halt at frame number 43827 at the stop line. 
 
 ## Carla (about and installation)
   1. The simulator can be found at http://carla.org/. 
