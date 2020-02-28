@@ -57,7 +57,7 @@ Here are four frames from Carla along with the (action) data from the vehicle.
 <br/>
 <br/>
 
-While it does not seem like much, the vehicle should have seen the traffic light in the first frame but comes to a stop only at the line. 
+The vehicle should have registered the traffic light in the frame number 43824 but continues to accelerate, applies the brake in frame numbers 43825 and 43826 thereby reducing its speed, and comes to a complete halt at frame number 43827 at the stop line. 
 
 ## Assumptions (and/or fixed parameters)
 ### Carla parameters
