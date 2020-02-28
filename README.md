@@ -22,10 +22,23 @@ By modifying the program, we can get a frame of a driving session along with the
 
 Here are four frames from Carla along with the data from the vehicle. 
 
-Frame:      43824
-Speed:      20
-Throttle:   1
-Brake:      0
+| Frame         | Speed         | Throttle pos  | Brake pos     |
+| ------------- | ------------- | ------------- | ------------- |
+| 43824         | 20            | 1             | 0             |
+
+| Frame         | Speed         | Throttle pos  | Brake pos     |
+| ------------- | ------------- | ------------- | ------------- |
+| 43825         | 16            | 0             | 1             |
+
+| Frame         | Speed         | Throttle pos  | Brake pos     |
+| ------------- | ------------- | ------------- | ------------- |
+| 43826         | 7             | 0             | 1             |
+
+| Frame         | Speed         | Throttle pos  | Brake pos     |
+| ------------- | ------------- | ------------- | ------------- |
+| 43827         | 0             | 0             | 1             |
+
+
 
 43825	-74.6	148.1	16	0	0.000350571	1
 43826	-74.6	147.8	7	0	-0.000154114	1
