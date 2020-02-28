@@ -20,4 +20,5 @@ Our intention was to collect data using a camera attached as a dashcam. However,
 Therefore we intend on using a simulator like Carla to create our data. 
 By modifying the program, we can get a frame of a driving session along with the action taken at the frame. 
 
-![Alt text](images/Example - red light.png?raw=true "Title")
+![Example - red light]
+(https://user-images.githubusercontent.com/41816491/75568209-deb3cc80-5a20-11ea-8ca6-7de013815a3f.png)
