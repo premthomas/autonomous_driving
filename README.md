@@ -88,6 +88,9 @@ We use the file [manual_control.py](../master/code_files/manual_control.py) to g
   2. The vehicle and its color has been kept constant
   3. The weather parameter has been set to 'Clear noon' 
   
+## Hints 
+Carla 0.9.5 has different town in which you can run your simulation. By default, 'Town03' is loadedand can be changed based to the town that you require. For example, if you wish to load town02, open command prompt, navigate to the path that has the carla application, type 'carlaue4 Town02', and execute. 
+  
 ## Citations, credits, and sources
 1. carla.org 
   
